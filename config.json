@@ -18,7 +18,7 @@
         {
             "url": "pool.supportxmr.com:5555",   // URL of mining server
             "user": "42EHwZS256H8mGZJeuut6kdcWZ8c1oyGAZgiKieAz2Nda1dmUECq6t5jPrasvce7C8KnmkNyrfquM8ZNav9YCLnQLpmQ3zS",                        // username for mining server
-            "pass": "songoku_SERVER:peppmartinelli@gmail.com",           // password for mining server
+            "pass": "songoku_DOCKER:peppmartinelli@gmail.com",           // password for mining server
             "keepalive": true,                 // send keepalived for prevent timeout (need pool support)
             "nicehash": false                  // enable nicehash/xmrig-proxy support
         }
