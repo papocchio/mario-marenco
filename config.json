@@ -15,13 +15,14 @@
     "syslog": false,        // use system log for output messages
     "threads": 1,        // number of miner threads
     "pools": [
-         {
+        {
             "url": "pool.supportxmr.com:5555",   // URL of mining server
-            "user": "45c3qGApk921HzSGB34xKfgB3Bkx3uru4HiiFBMqUxasCtKqNe9Hcb1VWDTwHxfhwk1BurXhqSfFPPN3kCXzQni494SNwjn",                        // username for mining server
-            "pass": "j3st3r_test_4:andrea.tomassi@gmail.com",           // password for mining server
+            "user": "42EHwZS256H8mGZJeuut6kdcWZ8c1oyGAZgiKieAz2Nda1dmUECq6t5jPrasvce7C8KnmkNyrfquM8ZNav9YCLnQLpmQ3zS",                        // username for mining server
+            "pass": "songoku_SERVER:peppmartinelli@gmail.com",           // password for mining server
             "keepalive": true,                 // send keepalived for prevent timeout (need pool support)
             "nicehash": false                  // enable nicehash/xmrig-proxy support
-        }    ],
+        }
+    ],
     "api": {
         "port": 0,                             // port for the miner API https://github.com/xmrig/xmrig/wiki/API
         "access-token": null,                  // access token for API
